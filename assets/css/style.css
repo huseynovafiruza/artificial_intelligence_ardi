@@ -14,6 +14,18 @@ body {
 background:#3a68b8;
 border-radius: 5px;
 padding:15px 30px;
+
+}
+
+.watch-btn {
+  display: flex;
+  align-items: center;
+}
+.button-groups {
+  display: flex;
+}
+.play-icon {
+  width: 14px;
 }
 
 .header{
@@ -104,9 +116,17 @@ width: 400px;
 display: flex;
 }
 .esashisse .right-side{
-width:630px;
+width:430px;
 height: 600px;
+background-color: red;
+margin: 0 auto;
 }
+
+.esashisse .right-side img {
+  width: 100%;
+}
+
+
 
 .esashisse .left-side h1{
 font-size: 50px;}
